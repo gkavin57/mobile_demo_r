@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .phone-picture {
   height: 540px;
@@ -14,6 +14,7 @@
   border-radius: 12px;
   overflow: hidden;
   box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+  text-align: center;
 }
 
 .phone-name {
@@ -42,6 +43,15 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 24px;
   margin: 24px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: 0 auto;
 }
